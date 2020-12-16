@@ -1,0 +1,95 @@
+* {
+  margin: unset;
+  padding: unset;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-color: #000;
+}
+
+div.main-container {
+  max-width: 1000px;
+  background-color: #333;
+  margin: auto;
+  padding: 20px;
+}
+
+div.logo {
+  font-size: 24px;
+  color: #f22;
+}
+
+div.search {
+  position: absolute;
+  top: 48px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div.search input {
+  width: 240px;
+  font-size: 14px;
+  padding: 5px 12px;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #f22;
+  border-radius: 19px;
+}
+
+div.search input:focus {
+  width: 300px;
+}
+
+div.search button.clear {
+  position: relative;
+  right: 25px;
+  background-color: #333;
+  color: #33F;
+  border: none;
+}
+/* 
+main {
+  max-width: 1000px;
+} */
+
+div.movies-wrapper {
+  margin-top: 40px;
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+div.image-container {
+  width: 180px;
+  height: 266px;
+  margin-bottom: 15px;
+}
+
+div.content-container {
+  position: relative;
+  bottom: 266px;
+  color: #fff;
+  padding: 10px;
+  width: 180px;
+  height: 266px;
+  margin-bottom: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+div.content-container p.ratings {
+  font-size: 12px;
+}
+
+div.content-container p.plot {
+  font-size: 12px;
+  margin: 20px 0px;
+  line-height: 20px;
+}
+
+div.image-container img{
+  width: 180px;
+  object-fit: contain;
+}
