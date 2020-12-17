@@ -13,10 +13,6 @@ function getMovies(title) {
 
 }
 
-getMovies("spiderman")
-.then( json => {
-  for (movie of json.Search) {
-    console.log(movie)
 function getMovieDetails(id) {
   return fetch(`http://www.omdbapi.com/?i=${id}&apikey=a5a7a164`)
   .then(response => {
