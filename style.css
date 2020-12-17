@@ -98,6 +98,6 @@ div.image-container img.image-poster{
 
 div.image-container img.image-poster:hover {
   width: 220px;
+  transition: 1s; 
   z-index: 0;
-  transition: 1s;
 }
